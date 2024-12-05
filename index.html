@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="greeting" id="timeGreeting"></div>
+        <h1>Ahemd Salah</h1>
+        <img src="profile-pic.jpg" alt="Profile Picture" class="profile-image">
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Bio Section -->
+        <section id="bio">
+            <h2>About Me</h2>
+            <p>I'm a passionate software developer with a keen interest in web technologies and innovative solutions. Always eager to learn and grow in the ever-evolving world of technology.</p>
+            <button id="readMoreBtn">Read More</button>
+            <div id="expandedBio" class="hidden">
+                <p>With a strong background in programming and a creative approach to problem-solving, I strive to develop efficient and user-friendly applications. My journey in tech is driven by curiosity and a desire to make a meaningful impact.</p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5 & CSS3</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Python</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Personal Portfolio Website</h3>
+                <p>A responsive personal portfolio showcasing web development skills.</p>
+            </div>
+            <div class="project">
+                <h3>Task Management App</h3>
+                <p>A full-stack application for tracking and managing personal tasks.</p>
+            </div>
+        </section>
+
+        <!-- Newsletter Signup Form -->
+        <section id="newsletter">
+            <h2>Stay Connected</h2>
+            <form id="newsletterForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <button type="submit">Subscribe</button>
+                <div id="formError" class="error-message"></div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Ahmed. All rights reserved.</p>
+        <!-- <div class="social-links">
+            <a href="https://github.com/yourusername">GitHub</a>
+            <a href="https://linkedin.com/in/yourusername">LinkedIn</a>
+        </div> -->
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
